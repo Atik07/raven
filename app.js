@@ -6,6 +6,8 @@ const dbConnection = require("./db");
 
 const PORT = process.env.PORT || 3000;
 
+app.use(express.urlencoded({ extended: true }));
+
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
