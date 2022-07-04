@@ -52,6 +52,5 @@ const displayAllVideosHome = async (req, res) => {
 module.exports = {
   uploadVideo,
   renderUploadVideoForm,
-  displayAllVideosHome,
-  likeVideo,
+  displayAllVideosHome
 };
